@@ -18,6 +18,8 @@ public class Truck extends Vehicle{
         this.engine = engine;
         this.container = container;
     }
+    public Truck(){
+    }
     public String getAirconditioning() {
         return Airconditioning;
     }
