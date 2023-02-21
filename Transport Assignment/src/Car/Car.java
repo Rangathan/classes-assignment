@@ -17,6 +17,8 @@ public class Car extends Vehicle{
         this.sound = sound;
         this.engine = engine;
     }
+    public Car(){
+    }
     public String getAirconditioning() {
         return Airconditioning;
     }
