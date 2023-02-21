@@ -13,6 +13,8 @@ public class Bike extends Vehicle{
         super(model, make, numberOfWheels, topSpeed);
         this.engine = engine;
     }
+    public Bike(){
+    }
 
     public String getEngine() {
         return engine;
